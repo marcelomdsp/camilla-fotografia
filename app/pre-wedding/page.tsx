@@ -6,7 +6,7 @@ import { pegarFotosEnsaio } from "@/app/services/imagens";
 
 const PreWedding = ({ nomeEnsaio }: any) => {
   const [imagens, setImagens] = useState<string[]>([]);
-  nomeEnsaio = "fotos-iniciais";
+  nomeEnsaio = "pre-wedding";
 
   useEffect(() => {
     const carregarFotos = async () => {

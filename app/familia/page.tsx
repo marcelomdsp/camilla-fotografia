@@ -23,7 +23,7 @@ const Familia = ({ nomeEnsaio }: any) => {
   return (
     <div className="flex flex-col bg-(--branco) font-sans">
       <HeroPortfolio
-        titulo="Familia"
+        titulo="Família"
         texto="Cada família é única, com sua própria história, seus jeitos e laços. E é justamente isso que define o que é ser família: estar junto, cuidar e compartilhar a vida, do seu próprio jeito."
       />
       <Galeria imagens={imagens} />
